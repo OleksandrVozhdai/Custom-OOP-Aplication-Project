@@ -94,7 +94,7 @@ void MainComponent::timerCallback()
     table.BookAuthorGetText = BookAuthor.getText();
     table.BookIdGetText = BookId.getText();
 
-
+    table.sort();
 
 
     repaint();

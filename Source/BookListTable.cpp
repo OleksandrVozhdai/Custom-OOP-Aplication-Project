@@ -27,10 +27,6 @@ DataSorter::DataSorter(String attributeToSortBy) : attributeToSort(attributeToSo
    
 }
 
-DataSorter::~DataSorter()
-{
-}
-
 int BookListTable::TableDemoComponent()
 {   
     addAndMakeVisible(table);
@@ -210,7 +206,14 @@ void BookListTable::loadData()
     numRows += dataList->getNumChildElements();
 }
 
+void BookListTable::sort()
+{
+    DataSorter sorter(BookNameGetText);
+    dataList->sortChildElements(sorter);
 
+    table.updateContent();
+
+}
 
 int DataSorter::compareElements(XmlElement* first, XmlElement* second) const
 {
@@ -218,15 +221,15 @@ int DataSorter::compareElements(XmlElement* first, XmlElement* second) const
     String bookName2 = second->getStringAttribute("Book");
 
 
-    if (bookName1.startsWith(BookNameGetText) && bookName2.startsWith(BookNameGetText))
+    if (bookName1.startsWith(attributeToSort) && bookName2.startsWith(attributeToSort))
     {
         return 0;
     }else
-    if (bookName1.startsWith(BookNameGetText))
+    if (bookName1.startsWith(attributeToSort))
     {
         return -1;
     } else
-    if (bookName2.startsWith(BookNameGetText))
+    if (bookName2.startsWith(attributeToSort))
     {
         return 1;
     } 

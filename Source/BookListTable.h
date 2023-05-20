@@ -21,7 +21,9 @@ public:
     int getColumnAutoSizeWidth(int columnId) override;
     void loadData();
     String getAttributeNameForColumnId(int columnId);
-    
+    void sort();
+
+
     int getID(const int RowNumber);
     void setID(const int rowNumber, const int newID);
    
@@ -56,18 +58,13 @@ private:
 };
 
 
-class DataSorter : public juce::Component, public juce::TableListBoxModel
+class DataSorter 
 {
 public:
-    DataSorter(const String& attributeToSortBy);
-    ~DataSorter() override;
+    DataSorter(String attributeToSortBy);
 
     int compareElements(XmlElement* first, XmlElement* second) const;
 
-    String attributeToSort;
-    int direction;
-
-    String bookName1;
-    String bookName2;
 private:
+ String attributeToSort;
 };
