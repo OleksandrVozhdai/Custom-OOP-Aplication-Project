@@ -14,29 +14,22 @@ MainComponent::MainComponent()
     setSize (600, 800);
 
     addAndMakeVisible(&BookName);
-    addAndMakeVisible(&BookAuthor);
-    addAndMakeVisible(&BookId);
-    BookName.setBounds(20, 200, 140, 40);
+ 
+    BookName.setBounds(20, 140, 140, 40);
     BookName.setFont(20.0f);
     BookName.setTextToShowWhenEmpty("Book name", juce::Colours::grey);
     BookAuthor.setBounds(20, 260, 140, 40);
-    BookAuthor.setFont(20.0f);
-    BookAuthor.setTextToShowWhenEmpty("Book author", juce::Colours::grey);
     BookId.setBounds(20, 320, 140, 40);
     BookId.setFont(20.0f);
     BookId.setTextToShowWhenEmpty("Book ID", juce::Colours::grey);
     addAndMakeVisible(&FindBook);
-    addAndMakeVisible(&AddBook);
-   
-    AddBook.setBounds(20, 440, 140, 40);
-    AddBook.setButtonText("Add Book");
   
-    FindBook.setBounds(20, 380, 140, 40);
+    FindBook.setBounds(180, 140, 140, 40);
     FindBook.setButtonText("Find Book");
   
     startTimer(100);
     addAndMakeVisible(table);
-    table.setBounds(260, 200, 300, 280);
+    table.setBounds(20, 200, 300, 280);
 
     
 
