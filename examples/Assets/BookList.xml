@@ -1,0 +1,38 @@
+<BOOKLIST_DATA>
+    <COLUMNS>
+        <COLUMN columnId = "1" name = "ID"/>
+        <COLUMN columnId = "2" name = "Book"/>
+    </COLUMNS>
+    <DATA>
+        <ITEM ID="1" Book="1984" Autor="George Orwell"/>
+        <ITEM ID="2" Book="To Kill a Mockingbird" Autor="Harper Lee"/>
+        <ITEM ID="3" Book="The Great Gatsby" Autor="F. Scott Fitzgerald"/>
+        <ITEM ID="4" Book="Animal Farm" Autor="George Orwell"/>
+        <ITEM ID="5" Book="Brave New World" Autor="Aldous Huxley"/>
+        <ITEM ID="6" Book="The Catcher in the Rye" Autor="J.D. Salinger"/>
+        <ITEM ID="7" Book="Lord of the Flies" Autor="William Golding"/>
+        <ITEM ID="8" Book="The Hunger Games" Autor="Suzanne Collins"/>
+        <ITEM ID="9" Book="The Da Vinci Code" Autor="Dan Brown"/>
+        <ITEM ID="10" Book="The Girl with the Dragon Tattoo" Autor="Stieg Larsson"/>
+        <ITEM ID="11" Book="The Hobbit" Autor="J.R.R. Tolkien"/>
+        <ITEM ID="12" Book="The Lord of the Rings" Autor="J.R.R. Tolkien"/>
+        <ITEM ID="13" Book="The Chronicles of Narnia" Autor="C.S. Lewis"/>
+        <ITEM ID="14" Book="The Hitchhiker's Guide to the Galaxy" Autor="Douglas Adams"/>
+        <ITEM ID="15" Book="Harry Potter and the Philosopher's Stone" Autor="J.K. Rowling"/>
+        <ITEM ID="16" Book="The Shining" Autor="Stephen King"/>
+        <ITEM ID="17" Book="The Silence of the Lambs" Autor="Thomas Harris"/>
+        <ITEM ID="18" Book="Jurassic Park" Autor="Michael Crichton"/>
+        <ITEM ID="19" Book="One Hundred Years of Solitude" Autor="Gabriel Garcia Marquez"/>
+        <ITEM ID="20" Book="The Alchemist" Autor="Paulo Coelho"/>
+        <ITEM ID="21" Book="The Picture of Dorian Gray" Autor="Oscar Wilde"/>
+        <ITEM ID="22" Book="Frankenstein" Autor="Mary Shelley"/>
+        <ITEM ID="23" Book="Moby-Dick" Autor="Herman Melville"/>
+        <ITEM ID="24" Book="War and Peace" Autor="Leo Tolstoy"/>
+        <ITEM ID="25" Book="Crime and Punishment" Autor="Fyodor Dostoyevsky"/>
+        <ITEM ID="26" Book="The Brothers Karamazov" Autor="Fyodor Dostoyevsky"/>
+        <ITEM ID="27" Book="Pride and Prejudice" Autor="Jane Austen"/>
+        <ITEM ID="28" Book="Wuthering Heights" Autor="Emily Bronte"/>
+        <ITEM ID="29" Book="The Adventures of Tom Sawyer" Autor="Mark Twain"/>
+        <ITEM ID="30" Book="The Adventures of Huckleberry Finn" Autor="Mark Twain"/>
+    </DATA>
+</BOOKLIST_DATA>
