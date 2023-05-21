@@ -32,23 +32,16 @@ int BookListTable::TableDemoComponent()
     addAndMakeVisible(table);
     table.setModel(this);
 
-    // give it a border
     table.setColour(ListBox::outlineColourId, Colours::grey);
     table.setOutlineThickness(1);
     table.setBounds(0, 0, 300, 280);
-
-    // Add some columns to the table header, based on the column list in our database..
     
     table.getHeader().addColumn(IdName, 1, 45);
     table.getHeader().addColumn(BookList, 2, 245);
    
 
-    // we could now change some initial settings..
-    table.getHeader().setSortColumnId(1, true); // sort forwards by the ID column
-    table.getHeader().setColumnVisible(7, false); // hide the "length" column until the user shows it
-
-    // un-comment this line to have a go of stretch-to-fit mode
-    // table.getHeader().setStretchToFitActive (true);
+    table.getHeader().setSortColumnId(1, true); 
+    table.getHeader().setColumnVisible(7, false); 
 
     table.setMultipleSelectionEnabled(true);
 
@@ -139,7 +132,6 @@ inline File getExamplesDirectory() noexcept
     if (exampleDir.exists())
         return exampleDir;
 
-    // keep track of the number of parent directories so we don't go on endlessly
     for (int numTries = 0; numTries < 15; ++numTries)
     {
         if (currentFile.getFileName() == "examples")
