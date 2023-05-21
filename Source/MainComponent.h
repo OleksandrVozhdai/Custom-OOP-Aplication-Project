@@ -28,7 +28,7 @@ private:
     juce::TextEditor BookId;
     juce::TextButton FindBook;
     juce::TextButton AddBook;
-    
+
     BookListTable table;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)

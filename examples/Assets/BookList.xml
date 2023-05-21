@@ -17,8 +17,8 @@
         <ITEM ID="11" Book="The Hobbit" Autor="J.R.R. Tolkien"/>
         <ITEM ID="12" Book="The Lord of the Rings" Autor="J.R.R. Tolkien"/>
         <ITEM ID="13" Book="The Chronicles of Narnia" Autor="C.S. Lewis"/>
-        <ITEM ID="14" Book="The Hitchhiker's Guide to the Galaxy" Autor="Douglas Adams"/>
-        <ITEM ID="15" Book="Harry Potter and the Philosopher's Stone" Autor="J.K. Rowling"/>
+        <ITEM ID="14" Book="Hitchhiker's Guide to the Galaxy" Autor="Douglas Adams"/>
+        <ITEM ID="15" Book="Harry Potter" Autor="J.K. Rowling"/>
         <ITEM ID="16" Book="The Shining" Autor="Stephen King"/>
         <ITEM ID="17" Book="The Silence of the Lambs" Autor="Thomas Harris"/>
         <ITEM ID="18" Book="Jurassic Park" Autor="Michael Crichton"/>
@@ -32,7 +32,27 @@
         <ITEM ID="26" Book="The Brothers Karamazov" Autor="Fyodor Dostoyevsky"/>
         <ITEM ID="27" Book="Pride and Prejudice" Autor="Jane Austen"/>
         <ITEM ID="28" Book="Wuthering Heights" Autor="Emily Bronte"/>
-        <ITEM ID="29" Book="The Adventures of Tom Sawyer" Autor="Mark Twain"/>
+        <ITEM ID="29" Book="Adventures of Tom Sawyer" Autor="Mark Twain"/>
         <ITEM ID="30" Book="The Adventures of Huckleberry Finn" Autor="Mark Twain"/>
+        <ITEM ID="31" Book="The Handmaid's Tale" Autor="Margaret Atwood"/>
+        <ITEM ID="32" Book="Catch-22" Autor="Joseph Heller"/>
+        <ITEM ID="33" Book="The Fountainhead" Autor="Ayn Rand"/>
+        <ITEM ID="34" Book="Slaughterhouse-Five" Autor="Kurt Vonnegut"/>
+        <ITEM ID="35" Book="The Bell Jar" Autor="Sylvia Plath"/>
+        <ITEM ID="36" Book="The Road" Autor="Cormac McCarthy"/>
+        <ITEM ID="37" Book="Gone Girl" Autor="Gillian Flynn"/>
+        <ITEM ID="38" Book="The Color Purple" Autor="Alice Walker"/>
+        <ITEM ID="39" Book="The Kite Runner" Autor="Khaled Hosseini"/>
+        <ITEM ID="40" Book="The Girl on the Train" Autor="Paula Hawkins"/>
+        <ITEM ID="41" Book="The Martian" Autor="Andy Weir"/>
+        <ITEM ID="42" Book="The Book Thief" Autor="Markus Zusak"/>
+        <ITEM ID="43" Book="The Road Less Traveled" Autor="The Road Less Traveled"/>
+        <ITEM ID="44" Book="The Old Man and the Sea" Autor="Ernest Hemingway"/>
+        <ITEM ID="45" Book="The Giver" Autor="Lois Lowry"/>
+        <ITEM ID="46" Book="The Secret Life of Bees" Autor="Sue Monk Kidd"/>
+        <ITEM ID="47" Book="The Fault in Our Stars" Autor="John Green"/>
+        <ITEM ID="48" Book="The Lovely Bones" Autor="Alice Sebold"/>
+        <ITEM ID="49" Book="The Catcher in the Rye" Autor="J.D. Salinger"/>
+        <ITEM ID="50" Book="A Game of Thrones" Autor="George R.R. Martin"/>
     </DATA>
 </BOOKLIST_DATA>

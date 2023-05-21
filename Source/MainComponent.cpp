@@ -11,28 +11,16 @@ using namespace juce;
 //==============================================================================
 MainComponent::MainComponent()
 {
-    setSize (600, 800);
+    setSize (600, 730);
 
     addAndMakeVisible(&BookName);
  
-    BookName.setBounds(20, 140, 140, 40);
+    BookName.setBounds(155, 140, 300, 40);
     BookName.setFont(20.0f);
     BookName.setTextToShowWhenEmpty("Book name", juce::Colours::grey);
-    BookAuthor.setBounds(20, 260, 140, 40);
-    BookId.setBounds(20, 320, 140, 40);
-    BookId.setFont(20.0f);
-    BookId.setTextToShowWhenEmpty("Book ID", juce::Colours::grey);
-    addAndMakeVisible(&FindBook);
-  
-    FindBook.setBounds(180, 140, 140, 40);
-    FindBook.setButtonText("Find Book");
-  
     startTimer(100);
     addAndMakeVisible(table);
-    table.setBounds(20, 200, 300, 280);
-
-    
-
+    table.setBounds(155, 200, 300, 280);
 }
 
 MainComponent::~MainComponent()
@@ -46,19 +34,23 @@ void MainComponent::paint(juce::Graphics& g)
 {
 
     g.fillAll(getLookAndFeel().findColour(juce::ResizableWindow::backgroundColourId));
-   
+  
     
    
         juce::Font ShelfSpaceFont(64.0f, juce::Font::bold);
         g.setFont(ShelfSpaceFont);
         g.setColour(juce::Colours::white);
-        g.drawText("ShelfSpace", -20, -150, 400, 400, juce::Justification::centred, true);
-        
+        g.drawText("ShelfSpace", 140, -150, 400, 400, juce::Justification::left, true);
+
+        g.drawLine(0, 100, 700, 100, 2.0f);
+
         juce::Font InformationFont(32.0f, juce::Font::bold);
         g.setFont(InformationFont);
         g.setColour(juce::Colours::white);
-        g.drawText("Information", 10, 440, 200, 200, juce::Justification::centred, true);
+        g.drawText("Information", 200, 440, 200, 200, juce::Justification::left, true);
     
+        g.drawLine(0, 500, 700, 500, 2.0f);
+        g.drawLine(0, 580, 700, 580, 2.0f);
         juce::Font Infofont(32.0f);
         g.setFont(Infofont);
 
