@@ -1,4 +1,4 @@
-# Custon-OOP-Aplication-Project
+# Custom-OOP-Aplication-Project
 
 ============================================================================================
 This project is built using JUCE, a powerful C++ framework for audio and graphical applications. 
